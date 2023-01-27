@@ -31,6 +31,9 @@ module.exports = {
     filename: 'js/[name].js',
     path: environment.paths.output,
   },
+  experiments: {
+    topLevelAwait: true
+  },
   module: {
     rules: [
       {
